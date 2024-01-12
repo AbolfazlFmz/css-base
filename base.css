@@ -1,0 +1,196 @@
+/* 
+a mix of some of the popular CSS reset and normlize projects mentioned below + some presonal code 
+*/
+/*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*The new CSS reset - version 1.11.2 (last updated 15.11.2023)
+  GitHub page: https://github.com/elad2412/the-new-css-reset
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+:root {
+	--text-xs: 0.75rem; /*12px*/
+	--text-sm: 0.875rem; /*14px*/
+	--text-base: 1rem; /*16px*/
+	--text-lg: 1.125rem; /*18px*/
+	--text-xl: 1.25rem; /*20px*/
+	--text-2xl: 1.5rem; /*24px*/
+	--text-3xl: 1.875rem; /*30px*/
+	--text-4xl: 2.25rem; /*36px*/
+	--text-5xl: 3rem; /*48px*/
+}
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	min-width: 0;
+	min-height: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+html {
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji";
+	line-height: calc(1em + 0.5rem);
+	-moz-tab-size: 4;
+	tab-size: 4;
+	scroll-behavior: smooth;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	scroll-padding-top: 30px;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-height: 100svh;
+	font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+	text-wrap: balance;
+}
+h1 {
+	font-size: var(--text-4xl);
+}
+h2 {
+	font-size: var(--text-3xl);
+}
+h3 {
+	font-size: var(--text-2xl);
+}
+h4 {
+	font-size: var(--text-xl);
+}
+h5 {
+	font-size: var(--text-base);
+}
+h6 {
+	font-size: var(--text-sm);
+}
+p {
+	text-wrap: pretty;
+	max-width: 75ch;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+	display: block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+img {
+	font-style: italic;
+}
+ol,
+ul {
+	list-style: none;
+}
+hr {
+	height: 0;
+	color: inherit;
+}
+abbr[title] {
+	text-decoration: underline dotted;
+}
+code,
+kbd,
+samp,
+pre {
+	font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+		monospace;
+	font-size: 1em;
+}
+small {
+	font-size: 80%;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+table {
+	text-indent: 0;
+	border-color: inherit;
+	border-collapse: collapse;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+:-moz-ui-invalid {
+	box-shadow: none;
+}
+legend {
+	padding: 0;
+}
+progress {
+	vertical-align: baseline;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+summary {
+	display: list-item;
+}
