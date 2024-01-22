@@ -31,11 +31,11 @@ a mix of some of the popular CSS reset and normlize projects mentioned below + s
 	min-width: 0;
 	min-height: 0;
 	-webkit-tap-highlight-color: transparent;
+	line-height: calc(1em + 0.5rem);
 }
 html {
 	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji";
-	line-height: calc(1em + 0.5rem);
 	-moz-tab-size: 4;
 	tab-size: 4;
 	scroll-behavior: smooth;
